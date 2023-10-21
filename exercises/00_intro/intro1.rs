@@ -13,8 +13,7 @@
 // Execute `rustlings hint intro1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
+ 
 fn main() {
     println!("Hello and");
     println!(r#"       welcome to...                      "#);
@@ -29,7 +28,7 @@ fn main() {
     println!("or logic error. The central concept behind Rustlings is to fix these errors and");
     println!("solve the exercises. Good luck!");
     println!();
-    println!("The source for this exercise is in `exercises/00_intro/intro1.rs`. Have a look!");
+    println!("The source for this exercise is in `exercises/intro/intro1.rs`. Have a look!");
     println!(
         "Going forward, the source of the exercises will always be in the success/failure output."
     );
