@@ -25,6 +25,7 @@ fn main() {
             thread::sleep(Duration::from_millis(250));
             // TODO: You must take an action before you update a shared value
             status_shared.lock().unwrap().jobs_completed += 1;
+            status_shared.unlock().unwrap();
         });
         handles.push(handle);
     }
